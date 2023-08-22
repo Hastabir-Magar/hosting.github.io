@@ -471,3 +471,63 @@ border-radius: 10px;
         margin: auto;
     }
 }
+
+/* This is contact header css */
+.header-contact{
+        min-height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/Picture2.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+}
+.venue{
+    width: 90%;
+    min-height: 50vh;
+    align-items: center;
+    margin: auto;
+}
+/* This about css */
+.header-about{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/Picture1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.why-college{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 100px;
+    
+}
+.why-college-col{
+    flex-basis: 44%;
+    flex-direction: row;
+    
+}
+.why-college-col img{
+    width: 100%;
+}
+.why-college-col h3{
+    color: #0a2241;
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-size: 30px;
+}
+.why-college-col h3::before{
+    content: '';
+    left: 0;
+    bottom: -12px;
+    height: 2px;
+    width: 90px;
+    background: #ff4800;
+    position: absolute;
+}
+.redcolor{
+    background-color: #0a2241;
+    margin-top: 30px;
+}
