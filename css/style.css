@@ -8175,13 +8175,12 @@ h1, h2, h3, h4, h5,
  }
   .phone a {
     color: #0a2241;
-    text-decoration: none;
+   
     font-size: 12px; }
   .phone .fa{
     color: #0a2241;
   }
   .email a{
-    text-decoration: none;
     color: #0a2241;
     font-size: 12px; 
   }
