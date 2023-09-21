@@ -40,7 +40,7 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: "Poppins","Uni Sans", Arial, sans-serif;
@@ -8174,11 +8174,13 @@ h1, h2, h3, h4, h5,
  }
   .phone a {
     color: #0a2241;
+    text-decoration: none;
     font-size: 12px; }
   .phone .fa{
     color: #0a2241;
   }
   .email a{
+    text-decoration: none;
     color: #0a2241;
     font-size: 12px; 
   }
@@ -8193,6 +8195,7 @@ h1, h2, h3, h4, h5,
   .social-media p a {
     width: 34px;
     height: 34px;
+    text-decoration: none;
     background: transparent;
     margin-right: 1px; }
     .social-media p a span {
@@ -8359,7 +8362,7 @@ h1, h2, h3, h4, h5,
             /* Firefox 18- */
             color: rgba(0, 0, 0, 0.7) !important; }
 .searchform .search {
-        width: 50px;
+        width: 60px;
         height: 34px;
         border-top-right-radius: 40px;
         border-bottom-right-radius: 40px;
