@@ -8202,7 +8202,8 @@ h1, h2, h3, h4, h5,
       color: #0a2241; }
     .social-media p a:hover {
       background: #0a2241;
-      border-color: #f1bc31; }
+      border-color: #f1bc31;
+    }
       .social-media p a:hover span {
         color: #fff; }
 
@@ -9111,4 +9112,102 @@ a {
 .social__img {
   width: 24px;
   margin-right: 15px;
+}
+
+
+
+/* Jombotron */
+
+.jombo {
+  background: #f2f2f2;
+  color: #303030;
+  font-family: "Roboto", sans-serif;
+  padding: 3%;
+}
+
+.two-col-example {
+  margin-bottom: 3em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h5 {
+  color: #1f6f9a;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.com-button {
+  background-color: #1f6f9a;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0.7em 2em;
+  border-radius: 100px;
+}
+
+.main-button {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.card {
+  border-radius: 3px;
+  border: 1px solid #d1d1d1;
+}
+
+.card-deck .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 6px;
+  margin-bottom: 0;
+  margin-left: 6px;
+}
+
+.com-icon {
+  margin-bottom: 0.35em;
+  color: #1f6f9a;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem 0.9em;
+  margin-bottom: 0.5em;
+  background-color: transparent;
+  /*     border: 1px solid rgba(0, 0, 0, 0.125); */
+  border: none;
+}
+
+.list-group-item:first-child {
+  padding-top: 0;
+}
+
+.list-group p {
+  font-size: 16px;
+}
+
+.list-com-announcements {
+  border-bottom: 1px solid #d1d1d1;
 }
