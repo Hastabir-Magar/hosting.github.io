@@ -645,7 +645,7 @@ a {
   --h2: 60px;
   --h4: 40px;
 }
-
+ 
 h2,h4,.h2,.h4
  {
   word-break: break-word;
@@ -654,33 +654,12 @@ h2,h4,.h2,.h4
   color: var(--color-heading);
 }
 
-h1,
-.h1 {
-  font-size: var(--h1);
-  line-height: 1.19;
-  font-weight: 700;
-}
-
-h2,
-.h2 {
-  font-size: var(--h2);
-  line-height: 1.23;
-}
-
-
-
-h4,
-.h4 {
-  font-size: var(--h4);
-  line-height: 1.25;
-}
 h2 a,
 h4 a,
 .h2 a,
-.h3 a,
 .h4 a{
   color: inherit;
-}
+} 
 
 
 .bg-color-tertiary h2,
